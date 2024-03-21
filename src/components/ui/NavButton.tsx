@@ -1,11 +1,11 @@
 "use client";
 
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { Button } from './button'
 import { useRouter } from 'next/navigation';
 
 interface props {
-    children: string,
+    children: ReactNode,
     link: string,
     style: string
 }
